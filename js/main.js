@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('AZUSAWA').split('');
+        const titles = ('Happy Love Day, my forever Valentine, Angelou.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "thank you for being such a kind and thoughtful caretaker for everything around you, this world needs more people like you";
+            subtitle.innerText = "Happy Valentine’s Day, Angel. Every day with you is a gift, but today, I just want to remind you how much you mean to me. You brighten my world, fill my heart with love, and make life so much sweeter just by being yourself. Makasih ya udah sabar terus sama Mas. Mas cinta sama kamu, Adik. ";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
